@@ -1,12 +1,13 @@
 footer {
-  background-color: #00cad1;
-  justify-content: center;
+  background-image: url(/assets/imagens/fundo-rodape.png);
   display: grid;
-  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
   grid-template-areas:
     "TextoCopyright LogoRodape .";
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 1rem 2rem;
 }
 
 .TextoCopyright {

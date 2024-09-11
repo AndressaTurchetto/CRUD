@@ -1,50 +1,5 @@
-* {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+main {
+    background: url(/assets/imagens/background-completo.png);
+    background-size: cover;
+    min-height: 60vh;
 }
-
-
-.container {
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-.container-info {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.container-info h2, .container-info h3 {
-    margin:0;
-}
-
-/* Início CSS Topo */
-
-
-@media (max-width: 425px) {
-    .topo .container {
-        flex-direction: column;
-    }
-
-    .topo-titulo {
-        margin: 10px 0;
-    }
-
-    .menu-links {
-        width: 100%;
-        border-top: 1px solid #009fa5;
-        justify-content: space-around;
-    }
-}
-
-/* Início CSS Rodapé */
-footer {
-    background-color: var(--cor-footer);
-    color: var(--cor-branca);
-    padding: 20px;
-  }
-
-  footer .container {
-    text-align: center;
-  }

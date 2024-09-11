@@ -6,7 +6,6 @@
 }
 
 .botao {
-  background-color: #00cad1;
   margin: 5px;
   margin-top: 70px;
   width: 200px;
@@ -17,8 +16,7 @@
 }
 
 .criar-pensamentos form {
-  background: #d8dee1;
-  box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+  background: #C4EDFF;
 
   border: none;
   border-radius: 20px;
@@ -29,12 +27,8 @@
   padding: 2rem;
 }
 
-.header h2{
-  color: #0000008c;
-}
-
 .criar-pensamentos form label {
-  color: #0000008c;
+  color: #154580;
   font-weight: bold;
   margin: 0 0 1rem;
 }
@@ -110,7 +104,7 @@ input[type='radio'] {
 }
 
 .custom-radio {
-  border: 1px solid #0000008c;
+  border: 1px solid #154580;
   width: 30px;
   height: 30px;
   display: grid;
@@ -121,7 +115,7 @@ input[type='radio'] {
 .custom-radio,
 span {
   transition: 0.5s ease;
-  color: #0000008c;
+  color: #154580;
 }
 
 .custom-radio span {
@@ -133,23 +127,9 @@ span {
 }
 
 input[type='radio']:checked+.custom-radio {
-  border-color: #00cad1;
+  border-color: #154580;
 }
 
 input[type='radio']:checked+.custom-radio span {
-  background: #00cad1;
-}
-
-.mensagem__erro {
-  font-size: 12px;
-  margin-left: 5px;
-  color: red;
-  margin-top: -25px;
-  margin-bottom: 20px;
-}
-
-.botao__desabilitado {
-  margin: 5px;
-  margin-top: 70px;
-  width: 200px;
+  background: #154580;
 }
