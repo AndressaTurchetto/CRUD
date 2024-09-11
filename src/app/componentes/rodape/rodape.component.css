@@ -1,0 +1,42 @@
+footer {
+  background-color: #00cad1;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+  grid-template-areas:
+    "TextoCopyright LogoRodape .";
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.TextoCopyright {
+  justify-self: center;
+  grid-area: TextoCopyright;
+}
+
+.LogoRodape {
+  justify-self: center;
+  grid-area: LogoRodape;
+}
+
+footer small {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .cabecalho .logo {
+    padding: 2rem;
+  }
+
+  .cabecalho p {
+    font-size: 1.5rem
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}
