@@ -10,23 +10,28 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'listarPensamento',
-    pathMatch: 'full'
+    pathMatch: 'full',
+    title: 'Home'
   },
   {
     path: 'criarPensamento',
-    component: CriarPensamentoComponent
+    component: CriarPensamentoComponent,
+    title: 'Criar Pensamento'
   },
   {
     path: 'listarPensamento',
-    component: ListarPensamentoComponent
+    component: ListarPensamentoComponent,
+    title: 'Listar Pensamento'
   },
   {
     path: 'pensamentos/excluirPensamento/:id',
-    component: ExcluirPensamentoComponent
+    component: ExcluirPensamentoComponent,
+    title: 'Excluir Pensamento'
   },
   {
     path: 'pensamentos/editarPensamento/:id',
-    component: EditarPensamentoComponent
+    component: EditarPensamentoComponent,
+    title: 'Editar Pensamento'
   }
 ];
 

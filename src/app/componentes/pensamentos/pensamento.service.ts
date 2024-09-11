@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+
 import { Pensamento } from './pensamento';
 import { Observable } from 'rxjs';
 
@@ -37,3 +38,4 @@ export class PensamentoService {
   }
 
 }
+ 

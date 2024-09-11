@@ -5,5 +5,3 @@ export interface Pensamento {
   modelo: string
 }
 
-
-
