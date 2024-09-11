@@ -41,6 +41,12 @@
   margin: 0.5rem 0 2rem;
 }
 
+.botao__desabilitado {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
 .mensagem__erro {
   font-size: 12px;
   margin-left: 5px;
