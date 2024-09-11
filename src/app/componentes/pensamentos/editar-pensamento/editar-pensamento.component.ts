@@ -1,7 +1,8 @@
 import { Router, ActivatedRoute } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+
 import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
-import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-editar-pensamento',
